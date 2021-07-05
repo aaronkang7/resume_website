@@ -23,9 +23,8 @@ const About = () => {
           <div className="description_inner">
             <div className="left">
               <p>
-                Hello, I am a creative photographer based in New York and happy
-                to travel all over Europe to capture your big day in candid and
-                authentic photos. I will create a lasting memory of the people.
+                I am a creative Software Engineer based in upstate New York who
+                believes that beautiful code can do wonderful things.
               </p>
               <div className="tokyo_tm_button">
                 <button onClick={toggleModal} className="ib-button">

@@ -16,9 +16,9 @@ const Contact = () => {
   };
 
   const [viewport, setViewport] = useState({
-    latitude: 40.712776,
-    longitude: -74.005974,
-    zoom: 8,
+    latitude: 42.444,
+    longitude: -76.5019,
+    zoom: 11,
   });
 
   return (

@@ -19,8 +19,7 @@ const Home = () => {
           <div className="details">
             <h3 className="name">Aaron Kang</h3>
             <p className="job">
-              Creative Software Engineer based in upstate New York who believes
-              that beautiful code can do beautiful things.
+              Hello! Welcome to my small corner of the internet.
             </p>
             {/* END JOB */}
             <Social />
