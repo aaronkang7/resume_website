@@ -308,14 +308,14 @@ h6 {
 }
 .tokyo_tm_all_wrap .leftpart .copyright p {
   font-size: 15px;
-  color: #999;
+  color: rgb(213, 213, 213);
   font-family: "Montserrat";
   line-height: 25px;
   font-style: italic;
 }
 .tokyo_tm_all_wrap .leftpart .copyright a {
   text-decoration: none;
-  color: #787878;
+  color: #d5d5d5;
   font-weight: 500;
   padding-left: 5px;
 
@@ -324,10 +324,6 @@ h6 {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-}
-.tokyo_tm_all_wrap .leftpart .copyright a:hover {
-  color: #000;
-  letter-spacing: 2px;
 }
 
 /*---------------------------------------------------*/

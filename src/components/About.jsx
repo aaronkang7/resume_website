@@ -204,7 +204,7 @@ const About = () => {
 
               <div className="counter">
                 <div className="about_title">
-                  <h3>Relevent Coursework</h3>
+                  <h3>Relevant Coursework</h3>
                 </div>
                 <ul>
                   <li>
@@ -224,7 +224,7 @@ const About = () => {
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3>Intro to Machine Learning</h3>
+                      <h3>Introduction to Machine Learning</h3>
                     </div>
                   </li>
                   <li>
