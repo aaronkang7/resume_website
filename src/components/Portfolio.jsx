@@ -40,8 +40,8 @@ const Portfolio = () => {
           <Tabs>
             <TabList>
               <Tab>All</Tab>
-              <Tab>Ui/Ux</Tab>
-              <Tab>Website</Tab>
+              {/* <Tab>Ui/Ux</Tab>
+              <Tab>Website</Tab> */}
             </TabList>
             {/* END TABLIST */}
             <div className="list_wrapper">
@@ -237,7 +237,7 @@ const Portfolio = () => {
                                 <div className="descriptions">
                                   <p className="bigger">
                                     ClubView is designed to provide students a
-                                    platform in which they can conviently view
+                                    platform in which they can conveniently view
                                     recruitment information of clubs of Cornell
                                     Univeristy. It aims to provide clearer
                                     communication between clubs and students
@@ -353,7 +353,7 @@ const Portfolio = () => {
                                   <p>
                                     Cornopoly is a group project that replicated
                                     the classic game Monopoly with functional
-                                    programming language OCaml as a text-based
+                                    programming language OCaml into a text-based
                                     terminal game. Our final product supports
                                     most, if not all, the features of Monopoly
                                     such as purchasing property, jail and chance
@@ -464,7 +464,7 @@ const Portfolio = () => {
                                   <p>
                                     In iGEM, I was responsible of constructing a
                                     Wiki presentation website for the 2020 iGEM
-                                    Competition entry. Our main objective of
+                                    Competition entry. Our main objective for
                                     this website was to coherently and
                                     effectively deliver information about our
                                     project to visitors.
