@@ -40,8 +40,6 @@ const Portfolio = () => {
           <Tabs>
             <TabList>
               <Tab>All</Tab>
-              {/* <Tab>Ui/Ux</Tab>
-              <Tab>Website</Tab> */}
             </TabList>
             {/* END TABLIST */}
             <div className="list_wrapper">
@@ -237,7 +235,7 @@ const Portfolio = () => {
                                 <div className="descriptions">
                                   <p className="bigger">
                                     ClubView is designed to provide students a
-                                    platform in which they can conveniently view
+                                    platform in which they can conviently view
                                     recruitment information of clubs of Cornell
                                     Univeristy. It aims to provide clearer
                                     communication between clubs and students
