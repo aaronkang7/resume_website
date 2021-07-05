@@ -42,8 +42,6 @@ const Portfolio = () => {
               <Tab>All</Tab>
               <Tab>Ui/Ux</Tab>
               <Tab>Website</Tab>
-              <Tab>Graphic</Tab>
-              <Tab>Creative</Tab>
             </TabList>
             {/* END TABLIST */}
             <div className="list_wrapper">
@@ -53,7 +51,7 @@ const Portfolio = () => {
                     <div className="inner" onClick={toggleModalOne}>
                       <div className="entry tokyo_tm_portfolio_animation_wrap">
                         <img
-                          src="assets/img/portfolio/carriage-small.jpg"
+                          src="assets/img/portfolio/Carriage-small.png"
                           alt="Portfolio"
                         />
                       </div>
@@ -87,7 +85,7 @@ const Portfolio = () => {
                                   className="main"
                                   style={{
                                     backgroundImage:
-                                      "url(assets/img/portfolio/carriage-big.jpg)",
+                                      "url(assets/img/portfolio/cornell-dti-big.jpeg)",
                                   }}
                                 ></div>
                               </div>
@@ -95,13 +93,12 @@ const Portfolio = () => {
                               <div className="details">
                                 <div className="extra">
                                   <p className="date">
-                                    By <a href="#">Alex Watson</a>
-                                    <span>05 April 2021</span>
+                                    <span>March 2021 - Present</span>
                                   </p>
                                 </div>
                                 <h3 className="title">
-                                  Format releases a new tool that enables direct
-                                  video hosting
+                                  Software Developer at Cornell Design and Tech
+                                  Initiative
                                 </h3>
                               </div>
                               {/* END DETAILS */}
@@ -193,7 +190,10 @@ const Portfolio = () => {
                   <li>
                     <div className="inner" onClick={toggleModalTwo}>
                       <div className="entry tokyo_tm_portfolio_animation_wrap">
-                        <img src="assets/img/portfolio/5.jpg" alt="Portfolio" />
+                        <img
+                          src="assets/img/portfolio/ClubView-small.png"
+                          alt="Portfolio"
+                        />
                       </div>
                       <Modal
                         isOpen={isOpen2}
@@ -225,7 +225,7 @@ const Portfolio = () => {
                                   className="main"
                                   style={{
                                     backgroundImage:
-                                      "url(assets/img/news/1.jpg)",
+                                      "url(assets/img/portfolio/clubview.jpg)",
                                   }}
                                 ></div>
                               </div>
@@ -233,8 +233,7 @@ const Portfolio = () => {
                               <div className="details">
                                 <div className="extra">
                                   <p className="date">
-                                    By <a href="#">Alex Watson</a>
-                                    <span>05 April 2021</span>
+                                    <span>November 2020 - Present</span>
                                   </p>
                                 </div>
                                 <h3 className="title">
@@ -331,7 +330,10 @@ const Portfolio = () => {
                   <li>
                     <div className="inner" onClick={toggleModalThree}>
                       <div className="entry tokyo_tm_portfolio_animation_wrap">
-                        <img src="assets/img/portfolio/5.jpg" alt="Portfolio" />
+                        <img
+                          src="assets/img/portfolio/Cornopoly-small.png"
+                          alt="Portfolio"
+                        />
                       </div>
                       <Modal
                         isOpen={isOpen3}
@@ -363,7 +365,7 @@ const Portfolio = () => {
                                   className="main"
                                   style={{
                                     backgroundImage:
-                                      "url(assets/img/news/1.jpg)",
+                                      "url(assets/img/portfolio/Cornopoly-large.png)",
                                   }}
                                 ></div>
                               </div>
@@ -371,8 +373,7 @@ const Portfolio = () => {
                               <div className="details">
                                 <div className="extra">
                                   <p className="date">
-                                    By <a href="#">Alex Watson</a>
-                                    <span>05 April 2021</span>
+                                    <span>October 2020 - December 2020</span>
                                   </p>
                                 </div>
                                 <h3 className="title">
@@ -469,7 +470,10 @@ const Portfolio = () => {
                   <li>
                     <div className="inner" onClick={toggleModalFour}>
                       <div className="entry tokyo_tm_portfolio_animation_wrap">
-                        <img src="assets/img/portfolio/5.jpg" alt="Portfolio" />
+                        <img
+                          src="assets/img/portfolio/igem-small.png"
+                          alt="Portfolio"
+                        />
                       </div>
                       <Modal
                         isOpen={isOpen4}
@@ -501,7 +505,7 @@ const Portfolio = () => {
                                   className="main"
                                   style={{
                                     backgroundImage:
-                                      "url(assets/img/news/1.jpg)",
+                                      "url(assets/img/portfolio/igem-large.png)",
                                   }}
                                 ></div>
                               </div>
@@ -1173,571 +1177,6 @@ const Portfolio = () => {
                 {/* END PORTFOLIO LIST */}
               </TabPanel>
               {/* END WEBSITE GALLERY */}
-
-              <TabPanel>
-                <ul className="portfolio_list">
-                  <li>
-                    <div className="inner" onClick={toggleModalOne}>
-                      <div className="entry tokyo_tm_portfolio_animation_wrap">
-                        <img src="assets/img/portfolio/5.jpg" alt="Portfolio" />
-                      </div>
-                      <Modal
-                        isOpen={isOpen}
-                        onRequestClose={toggleModalOne}
-                        contentLabel="My dialog"
-                        className="mymodal"
-                        overlayClassName="myoverlay"
-                        closeTimeoutMS={500}
-                      >
-                        <div className="tokyo_tm_modalbox_news">
-                          <button
-                            className="close-modal"
-                            onClick={toggleModalOne}
-                          >
-                            <img
-                              src="assets/img/svg/cancel.svg"
-                              alt="close icon"
-                            />
-                          </button>
-                          {/* END CLOSE ICON */}
-                          <div className="box_inner">
-                            <div className="description_wrap scrollable">
-                              <div className="image">
-                                <img
-                                  src="assets/img/thumbs/4-3.jpg"
-                                  alt="tumb"
-                                />
-                                <div
-                                  className="main"
-                                  style={{
-                                    backgroundImage:
-                                      "url(assets/img/news/1.jpg)",
-                                  }}
-                                ></div>
-                              </div>
-                              {/* END IMAGE */}
-                              <div className="details">
-                                <div className="extra">
-                                  <p className="date">
-                                    By <a href="#">Alex Watson</a>
-                                    <span>05 April 2021</span>
-                                  </p>
-                                </div>
-                                <h3 className="title">
-                                  Format releases a new tool that enables direct
-                                  video hosting
-                                </h3>
-                              </div>
-                              {/* END DETAILS */}
-                              <div className="main_content ">
-                                <div className="descriptions">
-                                  <p className="bigger">
-                                    Just because we can't get out and about like
-                                    we normally would, doesn’t mean we have to
-                                    stop taking pictures. There’s still plenty
-                                    you can do, provided you're prepared to use
-                                    some imagination. Here are a few ideas to
-                                    keep you shooting until normal life resumes.
-                                  </p>
-                                  <p>
-                                    Most photographers love to shoot the
-                                    unusual, and you don’t get much more unusual
-                                    than These Unprecedented Times. Right now
-                                    everything counts as out of the ordinary.
-                                    There are a number of remarkable things
-                                    about these lockdown days that are worth
-                                    photographing now so we can remember them
-                                    when it is all over.
-                                  </p>
-                                  <p>
-                                    Streets empty that are usually busy are
-                                    remarkable and can evoke the sense of
-                                    historical pictures from before the
-                                    invention of the motorcar. Other things that
-                                    are different at the moment will be queues
-                                    to get into stores and the lines marked out
-                                    on the floor to show how far apart we should
-                                    be.
-                                  </p>
-                                  <div className="quotebox">
-                                    <div className="icon">
-                                      <img
-                                        className="svg"
-                                        src="assets/img/svg/quote.svg"
-                                        alt="tumb"
-                                      />
-                                    </div>
-                                    <p>
-                                      Most photographers find it hard to see
-                                      interesting pictures in places in which
-                                      they are most familiar. A trip somewhere
-                                      new seems always exactly what our
-                                      photography needed, as shooting away from
-                                      home consistently inspires us to new
-                                      artistic heights.
-                                    </p>
-                                  </div>
-                                  {/* END QUOTEBOX */}
-                                  <p>
-                                    Pretend everything is new and that you
-                                    haven’t seen it before, and then you will be
-                                    free to notice the leading lines, the places
-                                    where one edge meets another in delightful
-                                    geometric harmony, and how the ordinary
-                                    things in the kitchen are transformed when
-                                    the light is on or off.
-                                  </p>
-                                  <p>
-                                    The trick here is to look slowly, and then
-                                    look again. Take the time to look in detail
-                                    and to look at the same thing from different
-                                    angles, with different light, long lenses
-                                    and wide lenses. Then move to the left a
-                                    bit. You may never feel the need to leave
-                                    the house again.
-                                  </p>
-                                </div>
-                                {/* END DESCRIPTION */}
-                                <div className="news_share">
-                                  <span>Share:</span>
-                                  <Social />
-                                  {/* END SOCIAL SHARE */}
-                                </div>
-                                {/* END NEWS SHARE */}
-                              </div>
-                            </div>
-                          </div>
-                          {/* END BOX INNER */}
-                        </div>
-                        {/* END MODALBOX NEWS */}
-                      </Modal>
-                    </div>
-                  </li>
-                  {/* END SOUNDCLOUD */}
-                  <li>
-                    <div className="inner" onClick={toggleModalOne}>
-                      <div className="entry tokyo_tm_portfolio_animation_wrap">
-                        <img src="assets/img/portfolio/5.jpg" alt="Portfolio" />
-                      </div>
-                      <Modal
-                        isOpen={isOpen}
-                        onRequestClose={toggleModalOne}
-                        contentLabel="My dialog"
-                        className="mymodal"
-                        overlayClassName="myoverlay"
-                        closeTimeoutMS={500}
-                      >
-                        <div className="tokyo_tm_modalbox_news">
-                          <button
-                            className="close-modal"
-                            onClick={toggleModalOne}
-                          >
-                            <img
-                              src="assets/img/svg/cancel.svg"
-                              alt="close icon"
-                            />
-                          </button>
-                          {/* END CLOSE ICON */}
-                          <div className="box_inner">
-                            <div className="description_wrap scrollable">
-                              <div className="image">
-                                <img
-                                  src="assets/img/thumbs/4-3.jpg"
-                                  alt="tumb"
-                                />
-                                <div
-                                  className="main"
-                                  style={{
-                                    backgroundImage:
-                                      "url(assets/img/news/1.jpg)",
-                                  }}
-                                ></div>
-                              </div>
-                              {/* END IMAGE */}
-                              <div className="details">
-                                <div className="extra">
-                                  <p className="date">
-                                    By <a href="#">Alex Watson</a>
-                                    <span>05 April 2021</span>
-                                  </p>
-                                </div>
-                                <h3 className="title">
-                                  Format releases a new tool that enables direct
-                                  video hosting
-                                </h3>
-                              </div>
-                              {/* END DETAILS */}
-                              <div className="main_content ">
-                                <div className="descriptions">
-                                  <p className="bigger">
-                                    Just because we can't get out and about like
-                                    we normally would, doesn’t mean we have to
-                                    stop taking pictures. There’s still plenty
-                                    you can do, provided you're prepared to use
-                                    some imagination. Here are a few ideas to
-                                    keep you shooting until normal life resumes.
-                                  </p>
-                                  <p>
-                                    Most photographers love to shoot the
-                                    unusual, and you don’t get much more unusual
-                                    than These Unprecedented Times. Right now
-                                    everything counts as out of the ordinary.
-                                    There are a number of remarkable things
-                                    about these lockdown days that are worth
-                                    photographing now so we can remember them
-                                    when it is all over.
-                                  </p>
-                                  <p>
-                                    Streets empty that are usually busy are
-                                    remarkable and can evoke the sense of
-                                    historical pictures from before the
-                                    invention of the motorcar. Other things that
-                                    are different at the moment will be queues
-                                    to get into stores and the lines marked out
-                                    on the floor to show how far apart we should
-                                    be.
-                                  </p>
-                                  <div className="quotebox">
-                                    <div className="icon">
-                                      <img
-                                        className="svg"
-                                        src="assets/img/svg/quote.svg"
-                                        alt="tumb"
-                                      />
-                                    </div>
-                                    <p>
-                                      Most photographers find it hard to see
-                                      interesting pictures in places in which
-                                      they are most familiar. A trip somewhere
-                                      new seems always exactly what our
-                                      photography needed, as shooting away from
-                                      home consistently inspires us to new
-                                      artistic heights.
-                                    </p>
-                                  </div>
-                                  {/* END QUOTEBOX */}
-                                  <p>
-                                    Pretend everything is new and that you
-                                    haven’t seen it before, and then you will be
-                                    free to notice the leading lines, the places
-                                    where one edge meets another in delightful
-                                    geometric harmony, and how the ordinary
-                                    things in the kitchen are transformed when
-                                    the light is on or off.
-                                  </p>
-                                  <p>
-                                    The trick here is to look slowly, and then
-                                    look again. Take the time to look in detail
-                                    and to look at the same thing from different
-                                    angles, with different light, long lenses
-                                    and wide lenses. Then move to the left a
-                                    bit. You may never feel the need to leave
-                                    the house again.
-                                  </p>
-                                </div>
-                                {/* END DESCRIPTION */}
-                                <div className="news_share">
-                                  <span>Share:</span>
-                                  <Social />
-                                  {/* END SOCIAL SHARE */}
-                                </div>
-                                {/* END NEWS SHARE */}
-                              </div>
-                            </div>
-                          </div>
-                          {/* END BOX INNER */}
-                        </div>
-                        {/* END MODALBOX NEWS */}
-                      </Modal>
-                    </div>
-                  </li>
-                  {/* END SOUNDCLOUD */}
-                </ul>
-                {/* END PORTFOLIO LIST */}
-              </TabPanel>
-              {/* END GRAPHIC GALLERY */}
-
-              <TabPanel>
-                <ul className="portfolio_list">
-                  <li>
-                    <div className="inner" onClick={toggleModalOne}>
-                      <div className="entry tokyo_tm_portfolio_animation_wrap">
-                        <img src="assets/img/portfolio/5.jpg" alt="Portfolio" />
-                      </div>
-                      <Modal
-                        isOpen={isOpen}
-                        onRequestClose={toggleModalOne}
-                        contentLabel="My dialog"
-                        className="mymodal"
-                        overlayClassName="myoverlay"
-                        closeTimeoutMS={500}
-                      >
-                        <div className="tokyo_tm_modalbox_news">
-                          <button
-                            className="close-modal"
-                            onClick={toggleModalOne}
-                          >
-                            <img
-                              src="assets/img/svg/cancel.svg"
-                              alt="close icon"
-                            />
-                          </button>
-                          {/* END CLOSE ICON */}
-                          <div className="box_inner">
-                            <div className="description_wrap scrollable">
-                              <div className="image">
-                                <img
-                                  src="assets/img/thumbs/4-3.jpg"
-                                  alt="tumb"
-                                />
-                                <div
-                                  className="main"
-                                  style={{
-                                    backgroundImage:
-                                      "url(assets/img/news/1.jpg)",
-                                  }}
-                                ></div>
-                              </div>
-                              {/* END IMAGE */}
-                              <div className="details">
-                                <div className="extra">
-                                  <p className="date">
-                                    By <a href="#">Alex Watson</a>
-                                    <span>05 April 2021</span>
-                                  </p>
-                                </div>
-                                <h3 className="title">
-                                  Format releases a new tool that enables direct
-                                  video hosting
-                                </h3>
-                              </div>
-                              {/* END DETAILS */}
-                              <div className="main_content ">
-                                <div className="descriptions">
-                                  <p className="bigger">
-                                    Just because we can't get out and about like
-                                    we normally would, doesn’t mean we have to
-                                    stop taking pictures. There’s still plenty
-                                    you can do, provided you're prepared to use
-                                    some imagination. Here are a few ideas to
-                                    keep you shooting until normal life resumes.
-                                  </p>
-                                  <p>
-                                    Most photographers love to shoot the
-                                    unusual, and you don’t get much more unusual
-                                    than These Unprecedented Times. Right now
-                                    everything counts as out of the ordinary.
-                                    There are a number of remarkable things
-                                    about these lockdown days that are worth
-                                    photographing now so we can remember them
-                                    when it is all over.
-                                  </p>
-                                  <p>
-                                    Streets empty that are usually busy are
-                                    remarkable and can evoke the sense of
-                                    historical pictures from before the
-                                    invention of the motorcar. Other things that
-                                    are different at the moment will be queues
-                                    to get into stores and the lines marked out
-                                    on the floor to show how far apart we should
-                                    be.
-                                  </p>
-                                  <div className="quotebox">
-                                    <div className="icon">
-                                      <img
-                                        className="svg"
-                                        src="assets/img/svg/quote.svg"
-                                        alt="tumb"
-                                      />
-                                    </div>
-                                    <p>
-                                      Most photographers find it hard to see
-                                      interesting pictures in places in which
-                                      they are most familiar. A trip somewhere
-                                      new seems always exactly what our
-                                      photography needed, as shooting away from
-                                      home consistently inspires us to new
-                                      artistic heights.
-                                    </p>
-                                  </div>
-                                  {/* END QUOTEBOX */}
-                                  <p>
-                                    Pretend everything is new and that you
-                                    haven’t seen it before, and then you will be
-                                    free to notice the leading lines, the places
-                                    where one edge meets another in delightful
-                                    geometric harmony, and how the ordinary
-                                    things in the kitchen are transformed when
-                                    the light is on or off.
-                                  </p>
-                                  <p>
-                                    The trick here is to look slowly, and then
-                                    look again. Take the time to look in detail
-                                    and to look at the same thing from different
-                                    angles, with different light, long lenses
-                                    and wide lenses. Then move to the left a
-                                    bit. You may never feel the need to leave
-                                    the house again.
-                                  </p>
-                                </div>
-                                {/* END DESCRIPTION */}
-                                <div className="news_share">
-                                  <span>Share:</span>
-                                  <Social />
-                                  {/* END SOCIAL SHARE */}
-                                </div>
-                                {/* END NEWS SHARE */}
-                              </div>
-                            </div>
-                          </div>
-                          {/* END BOX INNER */}
-                        </div>
-                        {/* END MODALBOX NEWS */}
-                      </Modal>
-                    </div>
-                  </li>
-                  {/* END IMAGE */}
-                  <li>
-                    <div className="inner" onClick={toggleModalOne}>
-                      <div className="entry tokyo_tm_portfolio_animation_wrap">
-                        <img src="assets/img/portfolio/5.jpg" alt="Portfolio" />
-                      </div>
-                      <Modal
-                        isOpen={isOpen}
-                        onRequestClose={toggleModalOne}
-                        contentLabel="My dialog"
-                        className="mymodal"
-                        overlayClassName="myoverlay"
-                        closeTimeoutMS={500}
-                      >
-                        <div className="tokyo_tm_modalbox_news">
-                          <button
-                            className="close-modal"
-                            onClick={toggleModalOne}
-                          >
-                            <img
-                              src="assets/img/svg/cancel.svg"
-                              alt="close icon"
-                            />
-                          </button>
-                          {/* END CLOSE ICON */}
-                          <div className="box_inner">
-                            <div className="description_wrap scrollable">
-                              <div className="image">
-                                <img
-                                  src="assets/img/thumbs/4-3.jpg"
-                                  alt="tumb"
-                                />
-                                <div
-                                  className="main"
-                                  style={{
-                                    backgroundImage:
-                                      "url(assets/img/news/1.jpg)",
-                                  }}
-                                ></div>
-                              </div>
-                              {/* END IMAGE */}
-                              <div className="details">
-                                <div className="extra">
-                                  <p className="date">
-                                    By <a href="#">Alex Watson</a>
-                                    <span>05 April 2021</span>
-                                  </p>
-                                </div>
-                                <h3 className="title">
-                                  Format releases a new tool that enables direct
-                                  video hosting
-                                </h3>
-                              </div>
-                              {/* END DETAILS */}
-                              <div className="main_content ">
-                                <div className="descriptions">
-                                  <p className="bigger">
-                                    Just because we can't get out and about like
-                                    we normally would, doesn’t mean we have to
-                                    stop taking pictures. There’s still plenty
-                                    you can do, provided you're prepared to use
-                                    some imagination. Here are a few ideas to
-                                    keep you shooting until normal life resumes.
-                                  </p>
-                                  <p>
-                                    Most photographers love to shoot the
-                                    unusual, and you don’t get much more unusual
-                                    than These Unprecedented Times. Right now
-                                    everything counts as out of the ordinary.
-                                    There are a number of remarkable things
-                                    about these lockdown days that are worth
-                                    photographing now so we can remember them
-                                    when it is all over.
-                                  </p>
-                                  <p>
-                                    Streets empty that are usually busy are
-                                    remarkable and can evoke the sense of
-                                    historical pictures from before the
-                                    invention of the motorcar. Other things that
-                                    are different at the moment will be queues
-                                    to get into stores and the lines marked out
-                                    on the floor to show how far apart we should
-                                    be.
-                                  </p>
-                                  <div className="quotebox">
-                                    <div className="icon">
-                                      <img
-                                        className="svg"
-                                        src="assets/img/svg/quote.svg"
-                                        alt="tumb"
-                                      />
-                                    </div>
-                                    <p>
-                                      Most photographers find it hard to see
-                                      interesting pictures in places in which
-                                      they are most familiar. A trip somewhere
-                                      new seems always exactly what our
-                                      photography needed, as shooting away from
-                                      home consistently inspires us to new
-                                      artistic heights.
-                                    </p>
-                                  </div>
-                                  {/* END QUOTEBOX */}
-                                  <p>
-                                    Pretend everything is new and that you
-                                    haven’t seen it before, and then you will be
-                                    free to notice the leading lines, the places
-                                    where one edge meets another in delightful
-                                    geometric harmony, and how the ordinary
-                                    things in the kitchen are transformed when
-                                    the light is on or off.
-                                  </p>
-                                  <p>
-                                    The trick here is to look slowly, and then
-                                    look again. Take the time to look in detail
-                                    and to look at the same thing from different
-                                    angles, with different light, long lenses
-                                    and wide lenses. Then move to the left a
-                                    bit. You may never feel the need to leave
-                                    the house again.
-                                  </p>
-                                </div>
-                                {/* END DESCRIPTION */}
-                                <div className="news_share">
-                                  <span>Share:</span>
-                                  <Social />
-                                  {/* END SOCIAL SHARE */}
-                                </div>
-                                {/* END NEWS SHARE */}
-                              </div>
-                            </div>
-                          </div>
-                          {/* END BOX INNER */}
-                        </div>
-                        {/* END MODALBOX NEWS */}
-                      </Modal>
-                    </div>
-                  </li>
-                  {/* END IMAGE */}
-                </ul>
-                {/* END PORTFOLIO LIST */}
-              </TabPanel>
               {/* END CREATIVE PORTFOLIO GALLERY */}
               {/* END TABPANEL */}
             </div>

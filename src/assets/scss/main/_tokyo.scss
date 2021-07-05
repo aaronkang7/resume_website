@@ -760,10 +760,12 @@ h6 {
 }
 .tokyo_tm_modalbox_about .list_inner {
   width: 100%;
-  height: 100%;
+  height: 145px;
+  align-items: center;
   clear: both;
   float: left;
   position: relative;
+  display: flex;
   border: 1px solid rgba(0, 0, 0, 0.1);
   text-align: center;
   padding: 40px 20px;

@@ -39,7 +39,7 @@ const About = () => {
               <ul>
                 <li>
                   <p>
-                    <span>Address:</span>Ave 11, New York, USA
+                    <span>Address:</span>208 Dryden Rd, New York 14850
                   </p>
                 </li>
                 <li>
@@ -205,25 +205,37 @@ const About = () => {
 
               <div className="counter">
                 <div className="about_title">
-                  <h3>Fun Facts</h3>
+                  <h3>Relevent Coursework</h3>
                 </div>
                 <ul>
                   <li>
                     <div className="list_inner">
-                      <h3>777+</h3>
-                      <span>Projects Completed</span>
+                      <h3>Object Oriented Programming and Data Structures</h3>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3>3K</h3>
-                      <span>Happy Clients</span>
+                      <h3>Introduction to Analysis of Algorithms</h3>
                     </div>
                   </li>
                   <li>
                     <div className="list_inner">
-                      <h3>9K+</h3>
-                      <span>Lines of Code</span>
+                      <h3>Discrete Structures</h3>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <h3>Intro to Machine Learning</h3>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <h3>Functional Programming (OCaml)</h3>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="list_inner">
+                      <h3>Linear Algebra for Engineers</h3>
                     </div>
                   </li>
                 </ul>
@@ -231,13 +243,13 @@ const About = () => {
               </div>
               {/* END COUNTER */}
 
-              <div className="partners">
+              {/* <div className="partners">
                 <div className="about_title">
                   <h3>Our Partners</h3>
                 </div>
                 <Brand />
               </div>
-              {/* END PARTNER SLIDER */}
+              END PARTNER SLIDER */}
             </div>
           </div>
         </div>
