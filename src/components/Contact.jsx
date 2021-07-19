@@ -10,10 +10,10 @@ const Contact = () => {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data, e) => {
-    e.target.reset();
-    console.log("Message submited: " + JSON.stringify(data));
-  };
+  // const onSubmit = (data, e) => {
+  //   e.target.reset();
+  //   console.log("Message submited: " + JSON.stringify(data));
+  // };
 
   const [viewport, setViewport] = useState({
     latitude: 42.444,
@@ -47,7 +47,7 @@ const Contact = () => {
         {/* MENU WRAP */}
 
         <div className="fields">
-          <form className="contact_form" onSubmit={handleSubmit(onSubmit)}>
+          <form className="contact_form" netlify>
             <div className="first">
               <ul>
                 <li>
